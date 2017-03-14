@@ -2,8 +2,8 @@
 
 ### Build
 ```
-go get -u github.com/davelondon/lets
-cd /home/dave/gopath/src/github.com/davelondon/lets
+go get -u github.com/dave/lets
+cd /home/dave/gopath/src/github.com/dave/lets
 docker build -t gcr.io/lets-144108/lets-image .
 gcloud docker push gcr.io/lets-144108/lets-image
 ```
